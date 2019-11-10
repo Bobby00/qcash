@@ -110,7 +110,7 @@ select + i.fas {
 }
 
 footer .logo {
-  max-height: 6.857143em;
+  max-height: 7.857143em;
   padding-bottom: 15px;
 }
 .mb_cstm_5 {
@@ -165,7 +165,7 @@ footer .logo {
 }
 
 .tabs_cstm {
-  border-radius: 30px;
+  border: unset;
 }
 .tab__title {
   font-size: 20px;
@@ -195,6 +195,9 @@ footer .logo {
   font-size: 30px;
 }
 
+.text_white {
+  color: #fff;
+}
 
 .btn-prmry-2 {
   border: 2px solid #FFC000;
@@ -458,7 +461,7 @@ footer .logo {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .header {
     text-align: left;
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .bg_sec_2 {
@@ -482,14 +485,17 @@ footer .logo {
   }
 
   .bar .logo {
-  max-height: 6.857143em;
-  top: -20px;
+  max-height: 2.857143em;
+  top: unset;
 }
   .xs_hidden_cstm {
     display: block;
   }
-  .xs_fnt_20 {
-    font-size: 20px;
+  .xs_fnt_16 {
+    font-size: 16px;
+  }
+  .xs_fnt_45 {
+    font-size: 45px;
   }
   .md_cstm_brder{
     border-right: none;
@@ -519,8 +525,8 @@ footer .logo {
     padding-top: 0px;
   }
   .btn-prmry-2 {
-    padding: 10px 17px;
-    font-size: 16px;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .btn-prmry-2:hover {
     padding: 10px 17px;
@@ -611,11 +617,11 @@ footer .logo {
   .btn-prmry-1 {
     background-color: #FFC000;
     border: 2px solid #FFC000;
-    padding: 20px 50px;
+    padding: 20px 45px;
     border-radius: 45px;
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
   }
   .btn-prmry-1:hover {
     background-color: #fff;
@@ -659,4 +665,29 @@ footer .logo {
       color: #FFC000;
       font-size: 25px;
     }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  .btn-prmry-1 {
+    background-color: #FFC000;
+    border: 2px solid #FFC000;
+    padding: 20px 35px;
+    border-radius: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .btn-prmry-1:hover {
+    background-color: #fff;
+    border: 2px solid #FFC000;
+    padding: 20px 35px;
+    border-radius: 45px;
+    text-decoration: none;
+    color: #FFC000;
+    font-size: 20px;
+  }
+  .sm_fnt_45 {
+    font-size: 45px;
+  }
 }

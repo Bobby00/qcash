@@ -6234,7 +6234,7 @@ a.block:hover > .feature {
 .tabs li.active {
   opacity: 1;
   background-color: #FBD61B;
-  border-radius: 40px 0px 0px 40px; 
+  border-radius: 40px; 
 }
 .tabs li.active .tab__title {
   color: #4a90e2;
@@ -6247,7 +6247,7 @@ a.block:hover > .feature {
   opacity: .5;
   background-color: #492776;
   color: #FBD61B;
-  border-radius: 0px 40px 40px 0px;
+  border-radius: 40px;
 }
 .tabs li:hover {
   opacity: 1;
