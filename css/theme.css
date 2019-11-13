@@ -6234,6 +6234,7 @@ a.block:hover > .feature {
 .tabs li.active {
   opacity: 1;
   text-decoration: underline;
+  text-align: right;
 }
 .tabs li.active .tab__title {
   color: #4a90e2;
@@ -6241,6 +6242,7 @@ a.block:hover > .feature {
 .tabs li.active .tab__title span {
   color: #492776;
   font-size: 20px;
+  text-align: right;
 }
 .tabs li:not(.active) {
   opacity: .5;
