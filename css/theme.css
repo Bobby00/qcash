@@ -6227,6 +6227,7 @@ a.block:hover > .feature {
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   padding: 0.92857143em 1.85714286em;
+  color: #8549BA;
 }
 .tabs li:not(:last-child) {
   border-right: 1px solid #ECECEC;
@@ -6239,8 +6240,13 @@ a.block:hover > .feature {
 .tabs li.active .tab__title {
   color: #4a90e2;
 }
+.tabs li .tab__title span {
+  color: #8549BA;
+  font-size: 20px;
+  text-align: right;
+}
 .tabs li.active .tab__title span {
-  color: #492776;
+  color: orange;
   font-size: 20px;
   text-align: right;
 }
