@@ -479,6 +479,19 @@ footer .logo {
     align-items: center;
 }
 
+.brdr-left {
+  border-left: 1px solid black;
+}
+
+.cstm-styln {
+  color: #8549BA;
+  font-size: 16px;
+  margin-bottom: 0.857143em;
+  font-weight: 600;
+}
+
+
+
 ul,
 ol {
     margin: 0;
